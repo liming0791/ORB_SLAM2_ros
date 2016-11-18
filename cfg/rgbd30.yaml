@@ -1,0 +1,3 @@
+VocabularyFile: "/home/liming/ORB_SLAM2/Vocabulary/ORBvoc.bin"
+SettingFile: "/home/liming/ORB_SLAM2/Examples/RGB-D_live/kinect.yaml"
+SkipFrameNum: 0

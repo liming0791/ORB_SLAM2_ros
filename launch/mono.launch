@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find orb_slam2)/cfg/mono.yaml" />
+  <node pkg="orb_slam2" type="Mono" name="Mono" />
+</launch>

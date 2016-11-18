@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find orb_slam2)/cfg/rgbd30.yaml" />
+  <node pkg="orb_slam2" type="RGBD" name="RGBD" />
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="orb_slam2" type="imu_pose_world" name="imu_pose_world" />
+  <rosparam command="load" file="$(find orb_slam2)/cfg/rgbd10.yaml" />
+  <node pkg="orb_slam2" type="RGBD" name="RGBD" cwd="node"/>
+</launch>
